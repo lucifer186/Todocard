@@ -1,0 +1,165 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* //navbarr */
+.main-header {
+    width: 100%;
+    height: 3.5rem;
+    background-color: #00695c;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .main-header__nav {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .main-header__item-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 16px;
+  }
+  
+  .main-header__item {
+    margin: 0 1rem;
+    padding: 0;
+  }
+  
+  .main-header__item a,
+  .main-header__item button {
+    font: inherit;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .main-header__item a:hover,
+  .main-header__item a:active,
+  .main-header__item a.active,
+  .main-header__item button:hover,
+  .main-header__item button:active {
+    color: #ffeb3b;
+  }
+
+.show-card {
+  position: relative;
+  margin: 12px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin: 10px;
+  width: 100%;
+}
+.card-list-name{
+    padding: 4px;
+    text-align: center;
+    width: 50%;
+    margin-left: 68px;
+    margin-top: 19px;
+}
+.card-components {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 500px;
+  width: 300px;
+  border: 2px solid #000;
+  margin-left: 20px;
+}
+.components{
+    display: flex;
+    flex-direction: column;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.form-conainer {
+  height: 65vh;
+  overflow: scroll;
+}
+.multiple {
+  border: 2px solid #000;
+  background-color: aquamarine;
+  margin: auto;
+  height: 30vh;
+  width: 72%;
+  margin-top: 12px;
+}
+#bottom-btn {
+  /* position: relative;
+ top: 226px; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: end;
+  /* height: 248px; */
+}
+button {
+  color: wheat;
+  background-color: #000;
+  font-size: 0.9rem;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.remove-item {
+  display: flex;
+  justify-content: flex-start;
+}
+.clear-data {
+    width: 96px;
+    margin: auto;
+}
+.index {
+    height: 20px;
+    width: 20px;
+    background-color: pink;
+    border-radius: 50%;
+    color: #000;
+    margin: auto;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    border: 2px solid;
+    width: 64%;
+    /* margin: auto; */
+    align-items: center;
+    height: 184px;
+    justify-content: center;
+    margin-left: 45px;
+    border: 2px solid blue;
+    background-color: #00695c;
+}
+
+/* edit-delete button */
+.card__actions{
+    margin-top: 45px;
+}
+
+.edit-button{
+    cursor: pointer;
+    text-decoration: none;
+}
+.edit-button:hover{
+    color: blue;
+}
